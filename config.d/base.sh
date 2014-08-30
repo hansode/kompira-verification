@@ -26,4 +26,4 @@ if ! [[ -d ${basename} ]]; then
 fi
 
 cd ${basename}
-sudo ./install.sh
+time sudo ./install.sh
